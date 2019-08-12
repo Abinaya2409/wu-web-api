@@ -1,0 +1,28 @@
+{
+  "name": "wu-web-api",
+  "version": "1.0.0",
+  "description": "World United web api ",
+  "main": "index.js",
+  "repository": {},
+  "author": "PG",
+  "license": "MIT",
+  "dependencies": {
+    "adal-node": "^0.1.25",
+    "axios": "^0.19.0",
+    "bcryptjs": "^2.4.3",
+    "bunyan": "^1.8.12",
+    "dotenv": "^5.0.1",
+    "jsonwebtoken": "^8.1.0",
+    "kcors": "^2.2.1",
+    "koa": "^2.7.0",
+    "koa-body": "^2.5.0",
+    "koa-router": "^7.3.0",
+    "memory-cache": "^0.2.0",
+    "useragent": "^2.3.0",
+    "uuid": "^3.1.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "startdev": "node index.js"
+  }
+}

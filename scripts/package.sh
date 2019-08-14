@@ -1,0 +1,1 @@
+cd /var/www/node-test && sudo npm install

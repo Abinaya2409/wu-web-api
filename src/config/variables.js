@@ -1,10 +1,10 @@
 // CRM variables
-const crmUrl = process.env.CRM_URL;
-const crmTenant = process.env.CRM_TENANT;
-const crmApplicationId = process.env.CRM_APPLICATION_ID;
-const crmClientSecret = process.env.CRM_CLIENT_SECRET;
-const crmAuthorityHost = process.env.CRM_AUTHORITY_HOST;
-const crmApiVersion = process.env.CRM_API_VERSION;
+const crmUrl = "https://sandboxpayconstruct.crm11.dynamics.com";
+const crmTenant = "8a8f5201-8ba1-48bf-9b70-3e33284d9a09";
+const crmApplicationId = "4383f2c3-5b27-4dcd-a208-15e5ec56b1cd";
+const crmClientSecret = "eloRf4mrmTVmgnoB6pkV6piPF1tXSloDAZo3DfF5ohg=";
+const crmAuthorityHost = "https://login.microsoftonline.com";
+const crmApiVersion = "v9.0";
 const crmApiUrl = crmUrl + "/api/data/" + crmApiVersion;
 
 

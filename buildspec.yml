@@ -13,4 +13,5 @@ phases:
       - pip install --upgrade awscli
  
 artifacts:
-  files:    - '**/*'
+  files:
+    - '**/*'
